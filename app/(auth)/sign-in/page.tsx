@@ -1,6 +1,8 @@
+import Authform from "@/components/Authform";
+
 function Page() {
     return ( 
-        <div>Page</div>
+        <Authform type="sign-in"/>
      );
 }
 

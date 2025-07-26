@@ -1,6 +1,8 @@
+import Authform from "@/components/Authform";
+
 function Page() {
-    return ( 
-        <div>Page</div>
+    return (
+        <Authform type = "sign-up"/>
      );
 }
 
